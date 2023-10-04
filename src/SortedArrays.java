@@ -5,3 +5,11 @@ public class SortedArrays {
         return testArrays;
     }
 }
+
+// It would look better this way:
+class ArrayUtils {
+    public int[] sort(int[] array) {
+        Arrays.sort(array);
+        return array;
+    }
+}
